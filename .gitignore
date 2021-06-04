@@ -1,3 +1,6 @@
+*.out
+*.log
+*.aux
 CTEQ/ManeParse5_Demo/PDFDIR/LHA/CT10/
 CTEQ/ManeParse5_Demo/PDFDIR/LHA/MSTW2008lo68cl/
 CTEQ/ManeParse5_Demo/PDFDIR/LHA/NNPDF30_nlo_as_0118/
