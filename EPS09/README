@@ -1,0 +1,13 @@
+EPS09.f is the Fortran file which reads data for $R[pPb]=\phi(x,
+pT)_{Pb}/\phi(x, pT)_{p}$ from "EPS09LO" or "EPS09NLO" and outputs
+R[pPb] as a function of x.
+
+Presently we output the results in the following tabulated format.
+
+pT, x=2*pT/\sqrt{S}, R_g[pPb] (ratio of gluonic PDFs), $\Delta$ R_g[pPb] (error)
+
+To compile use 
+$. ./Makefile
+
+To run use
+$./EPS09.out > RgPbEPS09.dat

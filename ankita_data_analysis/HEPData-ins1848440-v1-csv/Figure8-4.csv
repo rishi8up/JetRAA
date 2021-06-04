@@ -1,0 +1,55 @@
+#: table_doi: 10.17182/hepdata.93881.v1/t17
+#: name: Figure 8-4
+#: description: The RAA-ratio for jets with |eta jet| < 2.0 as a function of R for R = 0.3–1.0 with respect to R = 0.2, in various event centrality classes and jet PT = 400-500 GeV.
+#: data_file: Table8-4.yaml
+#: keyword cmenergies: 5020
+#: keyword reactions: P P --> JET X | Pb Pb --> JET X
+#: keyword observables: RAA(R) / RAA(R = 0.2)
+#: ABS(ETA),0.0-2.0
+#: RE,PB PB --> JET X, P P --> JET X
+#: SQRT(S)/NUCLEON [GeV],5020
+#: CENTRALITY [pct],0-10
+#: PT [GEV],400-500
+R,RAA(R) / RAA(R=0.2),stat +,stat -,sys +,sys -
+0.3,1.038,0.034,-0.034,0.039,-0.039
+0.4,1.048,0.041,-0.041,0.04,-0.04
+0.6,1.103,0.052,-0.052,0.084,-0.084
+0.8,1.12,0.06,-0.06,0.15,-0.15
+1.0,-,0,0,0,0
+
+#: ABS(ETA),0.0-2.0
+#: RE,PB PB --> JET X, P P --> JET X
+#: SQRT(S)/NUCLEON [GeV],5020
+#: CENTRALITY [pct],10-30
+#: PT [GEV],400-500
+R,RAA(R) / RAA(R=0.2),stat +,stat -,sys +,sys -
+0.3,1.003,0.033,-0.033,0.03,-0.03
+0.4,1.072,0.042,-0.042,0.052,-0.052
+0.6,1.09,0.052,-0.052,0.068,-0.068
+0.8,1.22,0.06,-0.06,0.11,-0.11
+1.0,1.18,0.06,-0.06,0.17,-0.17
+
+#: ABS(ETA),0.0-2.0
+#: RE,PB PB --> JET X, P P --> JET X
+#: SQRT(S)/NUCLEON [GeV],5020
+#: CENTRALITY [pct],30-50
+#: PT [GEV],400-500
+R,RAA(R) / RAA(R=0.2)
+0.3,-
+0.4,-
+0.6,-
+0.8,-
+1.0,-
+
+#: ABS(ETA),0.0-2.0
+#: RE,PB PB --> JET X, P P --> JET X
+#: SQRT(S)/NUCLEON [GeV],5020
+#: CENTRALITY [pct],50-90
+#: PT [GEV],400-500
+R,RAA(R) / RAA(R=0.2)
+0.3,-
+0.4,-
+0.6,-
+0.8,-
+1.0,-
+

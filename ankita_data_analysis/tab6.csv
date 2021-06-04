@@ -1,0 +1,55 @@
+#: table_doi: 10.17182/hepdata.93881.v1/t13
+#: name: Figure 7-6
+#: description: The RAA for jets with |eta jet| < 2.0 as a function of jet PT for R = 1.0 and various centrality classes.
+#: data_file: Table7-6.yaml
+#: keyword cmenergies: 5020
+#: keyword reactions: P P --> JET X | Pb Pb --> JET X
+#: keyword observables: RAA
+#: ABS(ETA),,,0.0-2.0
+#: RE,,,PB PB --> JET X, P P --> JET X
+#: SQRT(S)/NUCLEON [GeV],,,5020
+#: CENTRALITY [pct],,,0-10
+#: R,,,1.0
+PT [GEV],PT [GEV] LOW,PT [GEV] HIGH,RAA,stat +,stat -,sys +,sys -,TAA +,TAA -,lumi +,lumi -
+225.0,200,250,-,0,0,0,0,0,0,0,0
+275.0,250,300,-,0,0,0,0,0,0,0,0
+350.0,300,400,-,0,0,0,0,0,0,0,0
+450.0,400,500,-,0,0,0,0,0,0,0,0
+750.0,500,1000,0.815,0.065,-0.065,0.094,-0.094,0.082,-0.082,0.019,-0.019
+
+#: ABS(ETA),,,0.0-2.0
+#: RE,,,PB PB --> JET X, P P --> JET X
+#: SQRT(S)/NUCLEON [GeV],,,5020
+#: CENTRALITY [pct],,,10-30
+#: R,,,1.0
+PT [GEV],PT [GEV] LOW,PT [GEV] HIGH,RAA,stat +,stat -,sys +,sys -,TAA +,TAA -,lumi +,lumi -
+225.0,200,250,-,0,0,0,0,0,0,0,0
+275.0,250,300,-,0,0,0,0,0,0,0,0
+350.0,300,400,-,0,0,0,0,0,0,0,0
+450.0,400,500,0.77,0.03,-0.03,0.11,-0.11,0.04,-0.04,0.02,-0.02
+750.0,500,1000,0.77,0.063,-0.063,0.061,-0.061,0.039,-0.039,0.018,-0.018
+
+#: ABS(ETA),,,0.0-2.0
+#: RE,,,PB PB --> JET X, P P --> JET X
+#: SQRT(S)/NUCLEON [GeV],,,5020
+#: CENTRALITY [pct],,,30-50
+#: R,,,1.0
+PT [GEV],PT [GEV] LOW,PT [GEV] HIGH,RAA,stat +,stat -,sys +,sys -,TAA +,TAA -,lumi +,lumi -
+225.0,200,250,-,0,0,0,0,0,0,0,0
+275.0,250,300,0.89,0.014,-0.014,0.046,-0.046,0.023,-0.023,0.02,-0.02
+350.0,300,400,0.849,0.021,-0.021,0.036,-0.036,0.022,-0.022,0.02,-0.02
+450.0,400,500,-,0,0,0,0,0,0,0,0
+750.0,500,1000,-,0,0,0,0,0,0,0,0
+
+#: ABS(ETA),,,0.0-2.0
+#: RE,,,PB PB --> JET X, P P --> JET X
+#: SQRT(S)/NUCLEON [GeV],,,5020
+#: CENTRALITY [pct],,,50-90
+#: R,,,1.0
+PT [GEV],PT [GEV] LOW,PT [GEV] HIGH,RAA,stat +,stat -,sys +,sys -,TAA +,TAA -,lumi +,lumi -
+225.0,200,250,-,0,0,0,0,0,0,0,0
+275.0,250,300,0.857,0.026,-0.026,0.043,-0.043,0.016,-0.016,0.02,-0.02
+350.0,300,400,0.868,0.039,-0.039,0.022,-0.022,0.016,-0.016,0.02,-0.02
+450.0,400,500,-,0,0,0,0,0,0,0,0
+750.0,500,1000,-,0,0,0,0,0,0,0,0
+

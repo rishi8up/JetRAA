@@ -1,0 +1,62 @@
+#: table_doi: 10.17182/hepdata.93881.v1/t6
+#: name: Figure 5-6
+#: description: Spectra of jets with |eta jet| < 2.0 for R = 1.0, for pp collisions and different centrality classes of PbPb collisions.
+#: data_file: Table5-6.yaml
+#: keyword cmenergies: 5020
+#: keyword reactions: P P --> JET X | Pb Pb --> JET X
+#: keyword observables: d^2 sigma / d eta d PT
+#: ABS(ETA),,,0.0-2.0
+#: RE,,,PB PB --> JET X
+#: SQRT(S)/NUCLEON [GeV],,,5020
+#: CENTRALITY [pct],,,0-10
+#: R,,,1.0
+PT [GEV],PT [GEV] LOW,PT [GEV] HIGH,d^2 sigma / d PT d ETA,stat +,stat -,sys +,sys -,global +,global -
+275.0,250,300,-,0,0,0,0,0,0
+350.0,300,400,-,0,0,0,0,0,0
+450.0,400,500,-,0,0,0,0,0,0
+750.0,500,1000,1.46e-05,1.1e-06,-1.1e-06,3.1e-06,-3.1e-06,1.5e-06,-1.5e-06
+
+#: ABS(ETA),,,0.0-2.0
+#: RE,,,PB PB --> JET X
+#: SQRT(S)/NUCLEON [GeV],,,5020
+#: CENTRALITY [pct],,,10-30
+#: R,,,1.0
+PT [GEV],PT [GEV] LOW,PT [GEV] HIGH,d^2 sigma / d PT d ETA,stat +,stat -,sys +,sys -,global +,global -
+275.0,250,300,-,0,0,0,0,0,0
+350.0,300,400,-,0,0,0,0,0,0
+450.0,400,500,0.000264,1e-05,-1e-05,6.2e-05,-6.2e-05,1.4e-05,-1.4e-05
+750.0,500,1000,1.38e-05,1e-06,-1e-06,2.9e-06,-2.9e-06,7e-07,-7e-07
+
+#: ABS(ETA),,,0.0-2.0
+#: RE,,,PB PB --> JET X
+#: SQRT(S)/NUCLEON [GeV],,,5020
+#: CENTRALITY [pct],,,30-50
+#: R,,,1.0
+PT [GEV],PT [GEV] LOW,PT [GEV] HIGH,d^2 sigma / d PT d ETA,stat +,stat -,sys +,sys -,global +,global -
+275.0,250,300,0.0098,0.0002,-0.0002,0.0012,-0.0012,0.0002,-0.0002
+350.0,300,400,0.00201,5e-05,-5e-05,0.0004,-0.0004,5e-05,-5e-05
+450.0,400,500,-,0,0,0,0,0,0
+750.0,500,1000,-,0,0,0,0,0,0
+
+#: ABS(ETA),,,0.0-2.0
+#: RE,,,PB PB --> JET X
+#: SQRT(S)/NUCLEON [GeV],,,5020
+#: CENTRALITY [pct],,,50-90
+#: R,,,1.0
+PT [GEV],PT [GEV] LOW,PT [GEV] HIGH,d^2 sigma / d PT d ETA,stat +,stat -,sys +,sys -,global +,global -
+275.0,250,300,0.0094,0.0003,-0.0003,0.0018,-0.0018,0.0002,-0.0002
+350.0,300,400,0.00205,9e-05,-9e-05,0.0004,-0.0004,4e-05,-4e-05
+450.0,400,500,-,0,0,0,0,0,0
+750.0,500,1000,-,0,0,0,0,0,0
+
+#: ABS(ETA),,,0.0-2.0
+#: RE,,,P P --> JET X
+#: SQRT(S)/NUCLEON [GeV],,,5020
+#: CENTRALITY [pct],,,Inclusive
+#: R,,,1.0
+PT [GEV],PT [GEV] LOW,PT [GEV] HIGH,d^2 sigma / d PT d ETA,stat +,stat -,sys +,sys -,global +,global -
+275.0,250,300,0.011,0.0,-0.0,0.0017,-0.0017,0.0003,-0.0003
+350.0,300,400,0.00236,1e-05,-1e-05,0.0004,-0.0004,5e-05,-5e-05
+450.0,400,500,0.000344,6e-06,-6e-06,6.3e-05,-6.3e-05,8e-06,-8e-06
+750.0,500,1000,1.79e-05,6e-07,-6e-07,3.5e-06,-3.5e-06,4e-07,-4e-07
+
