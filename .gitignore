@@ -134,4 +134,6 @@ CTEQ/ManeParse5_Demo/PDFDIR/PDS/nCTEQnp-Pb-208/
 CTEQ/ManeParse5_Demo/PDFDIR/PDS/nCTEQnp-Sn-119/
 CTEQ/ManeParse5_Demo/PDFDIR/PDS/nCTEQnp-W-184/
 CTEQ/ManeParse5_Demo/PDFDIR/PDS/nCTEQnp-Xe-131/
-
+CTEQ/ManeParse5_Demo/JetCross1.nb
+.gitignore.swp
+.gitignore.swo
